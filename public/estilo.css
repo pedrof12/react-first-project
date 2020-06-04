@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+    background: #FBFCFD;
+}
+
+/* Start Banner */
+.banner_c
+{
+    width: 100%;
+    height: 646px;
+    position: relative;
+}
+
+.banner_c .banner 
+{
+    width: 100%;
+    height: 646px;
+    background: url("img/bg.svg") bottom no-repeat;
+    position: absolute;
+    background-size: cover;
+}
+/* End Banner */
+
+/* Start menu */
+.menu
+{
+    margin-top: 16px;
+}
+
+.menu .navbar-brand
+{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-shadow: 0px 2.5px rgba(0, 0, 0, 0.336);
+    position: absolute;
+}
+
+.menu .nav-item
+{
+    margin: 0 18px;
+}
+
+.menu .active a{ color: #FFF; }
+
+.menu .nav-link
+{
+    color: #C7C7C7;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* End menu */
+
+/* Start content */
+.content h2 
+{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 49px;
+    font-weight: 600;
+    margin-top: 82px;
+}
+
+.content p 
+{
+    color: #CFC8DF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    opacity: 86%;
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.content .btn_conhecer
+{
+    background: #8D5CEF;
+    border-radius: 4px;
+    padding: 11px 30px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.05);
+    box-shadow: 0 0 10px rgba(0,0,0,.05);
+}
+
+.content .btn_conhecer:hover
+{
+    animation: up-bump 0.45s;
+}
+
+@keyframes up-bump 
+{
+    0% { transform: scale(1); }
+    50% { transform: scale(1.012); }
+    100% { transform: scale(1.015); }
+}
+/* End Content */
+/* Start Services */
+
+.services
+{
+    margin-top: -140px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.box
+{
+    width: 100%;
+    background: #FFF;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 25px rgba(0,0,0,.11);
+    box-shadow: 0 0 35px rgba(0,0,0,.11);
+}
+
+.box h4 
+{
+    color: #3B3051;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.box p 
+{
+    color: #9992A8;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box .btn_plans 
+{
+    color: #7547D4;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .6px;
+}
+
+.box .btn_plans .icon_seta
+{
+    margin-right: 10px;
+    padding-top: 1.5px;
+}
+
+/* End Services */
+/* Start Datacenter */
+.datacenter
+{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 100px;
+}
+
+.datacenter h5 
+{
+    color: #908C98;
+    font-size: 19px;
+    margin-top: 70px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    margin-bottom: 25px;
+}
+
+.datacenter h3 
+{
+    color: #3B3051;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.datacenter p 
+{
+    color: #9992A8;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.datacenter .btn_mais
+{
+    color: #7547D4;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .6px;
+}
+
+.datacenter .btn_mais .icon_seta
+{
+    margin-right: 10px;
+    padding-top: 1.5px;
+}
+/* End Datacenter */
+/* Start Chat */
+.chat 
+{
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 110px;
+    margin-bottom: 60px;
+}
+
+.chat  h5 
+{
+    color: #908C98;
+    font-size: 19px;
+    margin-top: -25px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    margin-bottom: 25px;
+}
+
+.chat  h3 
+{
+    color: #3B3051;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.chat  p 
+{
+    color: #9992A8;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.chat  .btn_mais
+{
+    color: #7547D4;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: .6px;
+}
+
+.chat .btn_mais .icon_seta
+{
+    margin-right: 10px;
+    padding-top: 1.5px;
+}
+/* End Chat */
+/* Start dominio */
+
+.dominio_c 
+{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.dominio 
+{
+    width: 100%;
+    height: 300px;
+    background: url("https://cdn.discordapp.com/attachments/621799643507851265/718144456708325537/fundo.png") no-repeat center;
+    font-family: 'Fira Sans', sans-serif;
+    background-size: cover;
+    margin-bottom: 50px;
+    position: absolute;
+}
+
+.dominio h3 
+{
+    margin-top: 60px;
+    color: #F9F9F9;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.dominio p 
+{
+    color: #E3D7FE;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.dominio input
+{
+    height: 54px;
+    background: #FEFEFE;
+    border: none;
+    padding: 2px 20px;
+    margin-top: 50px;
+}
+
+.dominio .input-group span 
+{
+    margin-top: 50px;
+    width: 100px;
+    text-align: center;
+    background: rgba(229, 224, 242, 0.925);
+    border: none;
+}
+/* End dominio */
+/* Start Features */
+.features 
+{
+    margin-top: -40px;
+    margin-bottom: 30px;
+}
+/* End Features */
+/* Start Etapa */
+.etapa
+{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.etapa ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+.etapa ul.timeline a 
+{
+    color: #3B3051;
+    font-family: 'Fira Sans';
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.etapa ul.timeline p 
+{
+    color: #9992A8;
+    font-size: 16px;
+    font-family: 'Fira Sans';
+    padding: 5px;
+    padding-left: 0px;
+}
+
+.etapa ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+.etapa ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+.etapa ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #7547D4;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+.etapa img 
+{
+    width: 600px;
+}
+/* End Etapa */

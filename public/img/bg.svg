@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="646" viewBox="0 0 1366 646">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_15" data-name="Retângulo 15" width="1366" height="646" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <filter id="Caminho_1" x="-22.5" y="-20.5" width="1411" height="680" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="bg" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Caminho_1)">
+      <path id="Caminho_1-2" data-name="Caminho 1" d="M0,0H1366V635s-352.821-112.486-684.3-78.014S0,585.336,0,585.336Z" fill="#7547d4"/>
+    </g>
+    <circle id="Elipse_1" data-name="Elipse 1" cx="262" cy="262" r="262" transform="translate(-221 -240)" fill="#794bd8" opacity="0.84"/>
+    <path id="Caminho_2" data-name="Caminho 2" d="M250.979-40.782c2.954,0,81.89,83.687,77.915,87.983C322.089,52,191,204.928,191,307.461,191,412.947-8.2,447.552-113.685,447.552s35.516-281.243,35.516-386.73S243.449-41.008,250.979-40.782Z" transform="matrix(0.921, 0.391, -0.391, 0.921, 972.632, 128.948)" fill="#794bd8" opacity="0.6"/>
+    <circle id="Elipse_2" data-name="Elipse 2" cx="262" cy="262" r="262" transform="translate(1263 172)" fill="#794bd8" opacity="0.84"/>
+  </g>
+</svg>
